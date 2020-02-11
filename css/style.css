@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color:#222222;
+	font-weight: 300;
+}
+
+header {
+	font-family: 'Montserrat', sans-serif
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #fff !important;
+}
+.header-area.sticky .navbar-light{
+	background-color: #fff;
+}
+
+#hero{
+    background-image: url(../img/bg-hero.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 0;
+    color: #fff;
+}
+
+#hero h1 {
+	font-weight:900;
+}
+
+.tituloverde {
+	color: #72b529;
+}
+
+.btn-verde1{
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    border: 2 #fff;
+    padding: 10px 40px;
+    font-weight: 300;
+    border-radius: 30px;
+}
+.btn-verde{
+    background-color: #72b529;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    padding: 10px 40px;
+    font-weight: 300;
+    border-radius: 30px;
+}
+
+spam {
+	color: #72b529;
+}
+
+.titulowecan {
+	text-align: center;
+	color: #222222;
+	font-weight:900;
+}
+
+i{
+	color: #72b529;
+}
+
+.cuadrouno{
+	background-color: #222222;
+	color: #fff;
+	text-align: center;
+	padding: 5% 2%;
+}
+
+.cuadrodos{
+	background-color: #8EE92A;
+	color: #fff;
+	text-align: center;
+	padding: 5% 2%;
+}
+
+.cuadrotres{
+	background-color: #72b529;
+	color: #fff;
+	text-align: center;
+	padding: 5% 2%;
+}
+
+.titulodriven {
+	font-weight:900;
+}
+
+#driven {
+	margin-top: 80px;
+	margin-left: 40px;
+}
+
+#logos {
+	background-color: #DDDDDD;
+	padding: 5%;
+}
+
+#hombre {
+	background-image: url(../img/bg-testi.jpg);
+	padding: 15% 0;
+}
+
+#hombre h1 {
+	color: #72b529;
+}
+
+#hombre p {
+	color: #fff;
+	font-size: 16px;
+}
+
+#verde {
+	background-color: #72b529;
+	padding: 5% 0;
+	padding-left: 15%;
+}
+
+#verde h3 {
+	color: #fff;
+}
+
+.btn-verdelast {
+	background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    border: 2 #fff;
+    padding: 10px 40px;
+    font-weight: 300;
+}
+
+#contact{
+	background-color: #585858;
+	color: #fff;
+}
+
+footer {
+	background-color: #3d3f3e;
+	color: #fff;
+	text-align: center;
+	padding: 1%;
+}
